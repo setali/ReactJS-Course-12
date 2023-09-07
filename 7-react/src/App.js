@@ -14,13 +14,27 @@
 // import CreateRef from './13-CreateRef'
 // import PureComponent from './14-PureComponent'
 // import Stateless from './16-Stateless'
-import FunctionVsClass from './17-FunctionVsClass'
+// import FunctionVsClass from './17-FunctionVsClass'
+// import UseState from './18-UseState'
+// import UseEffect from './19-UseEffect'
+// import AdvanceStateEffect from './20-AdvanceStateEffect'
+// import HOC from './15-HOC/App'
+// import HookRules from './21-HookRules'
+// import CustomHook from './22-CustomHook'
+import Table from './exercise/App'
 
 // export default class App extends Component {
 export default function App () {
   return (
     <div>
-      <FunctionVsClass />
+      <Table />
+      {/* <CustomHook /> */}
+      {/* <HookRules /> */}
+      {/* <HOC /> */}
+      {/* <AdvanceStateEffect /> */}
+      {/* <UseEffect /> */}
+      {/* <UseState /> */}
+      {/* <FunctionVsClass /> */}
       {/* <Stateless /> */}
       {/* <PureComponent /> */}
       {/* <CreateRef /> */}
