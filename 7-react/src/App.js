@@ -21,13 +21,21 @@
 // import HOC from './15-HOC/App'
 // import HookRules from './21-HookRules'
 // import CustomHook from './22-CustomHook'
-import Table from './exercise/App'
+// import TodosUseState from './23-TodosUseState'
+// import UseReducer from './24-UseReducer'
+import TodosUseReducer from './25-TodosUseReducer'
+// import Table from './exercise/App'
+import Context from './31-context/App'
 
 // export default class App extends Component {
 export default function App () {
   return (
     <div>
-      <Table />
+      <Context />
+      {/* <TodosUseReducer /> */}
+      {/* <UseReducer /> */}
+      {/* <TodosUseState /> */}
+      {/* <Table /> */}
       {/* <CustomHook /> */}
       {/* <HookRules /> */}
       {/* <HOC /> */}
