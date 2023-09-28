@@ -23,15 +23,25 @@
 // import CustomHook from './22-CustomHook'
 // import TodosUseState from './23-TodosUseState'
 // import UseReducer from './24-UseReducer'
-import TodosUseReducer from './25-TodosUseReducer'
+// import TodosUseReducer from './25-TodosUseReducer'
+// import UseMemo from './26-UseMemo'
+// import Memo from './27-Memo'
+// import UseRef from './28-UseRef'
 // import Table from './exercise/App'
-import Context from './31-context/App'
+// import UseCallback from './29-UseCallback'
+import LazyLoad from './30-Lazy/Main'
+// import Context from './31-context/App'
 
 // export default class App extends Component {
 export default function App () {
   return (
     <div>
-      <Context />
+      <LazyLoad />
+      {/* <UseCallback /> */}
+      {/* <UseRef /> */}
+      {/* <Memo /> */}
+      {/* <UseMemo /> */}
+      {/* <Context /> */}
       {/* <TodosUseReducer /> */}
       {/* <UseReducer /> */}
       {/* <TodosUseState /> */}
