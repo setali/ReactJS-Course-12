@@ -5,6 +5,7 @@ import {
   UserOutlined
 } from '@ant-design/icons'
 import { Menu as AntMenu } from 'antd'
+import { Link } from 'react-router-dom'
 
 function getItem (label, key, icon, children, type) {
   return {
@@ -18,14 +19,14 @@ function getItem (label, key, icon, children, type) {
 const items = [
   getItem('داشبورد', 'dashboard', <DashboardOutlined />),
   getItem('مدیریت کاربران', 'users', <UserOutlined />, [
-    getItem('لیست کاربران', 'user_list'),
-    getItem('افزودن کاربر', 'add_user')
+    getItem(<Link to={'/person'}>لیست کاربران</Link>, 'user_list'),
+    getItem(<Link to={'/person/new'}>افزودن کاربر</Link>, 'add_user')
   ]),
   {
     type: 'divider'
   },
   getItem('مدیریت مقالات', 'posts', <CopyOutlined />, [
-    getItem('لیست مقالات', 'post_list'),
+    getItem(<Link to='/post'> لیست مقالات</Link>, 'post_list'),
     getItem('افزودن مقالات', 'add_post')
   ])
 ]
