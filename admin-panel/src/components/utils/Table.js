@@ -4,7 +4,7 @@ import { Table as AntTable } from 'antd'
 export default function Table ({ columns, data, rowKey = 'id' }) {
   const newColumns = useMemo(() => {
     return columns.map(column => ({
-      dataIndex: column.Key,
+      dataIndex: column.key,
       ...column
     }))
   }, [columns])

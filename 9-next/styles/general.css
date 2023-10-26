@@ -1,0 +1,12 @@
+header,
+footer,
+aside,
+article {
+  border: 1px solid;
+  margin: 1em;
+  padding: 1em;
+}
+
+article {
+  width: 100%;
+}

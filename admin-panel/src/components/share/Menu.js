@@ -17,7 +17,7 @@ function getItem (label, key, icon, children, type) {
   }
 }
 const items = [
-  getItem('داشبورد', 'dashboard', <DashboardOutlined />),
+  getItem(<Link to="/">داشبورد</Link>, 'dashboard', <DashboardOutlined />),
   getItem('مدیریت کاربران', 'users', <UserOutlined />, [
     getItem(<Link to={'/person'}>لیست کاربران</Link>, 'user_list'),
     getItem(<Link to={'/person/new'}>افزودن کاربر</Link>, 'add_user')
