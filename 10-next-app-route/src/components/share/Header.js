@@ -1,5 +1,4 @@
-import Image from 'next/image'
-import logo from '../../public/logo.png'
+'use client'
 
 export default function Header () {
   const color = 'gray'
@@ -7,8 +6,6 @@ export default function Header () {
   return (
     <header>
       <div className='header'>
-        <Image src={logo} alt='logo' className='image' />
-        {/* <img src='/logo.png' /> */}
         <h2>My Header</h2>
       </div>
       <style jsx>{`
