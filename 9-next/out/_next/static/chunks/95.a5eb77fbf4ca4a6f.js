@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[95],{3095:function(n,r,a){a.r(r),a.d(r,{default:function(){return Random}});var t=a(5893);a(7294);let random=(n,r)=>Math.floor(Math.random()*(r-n)+n);function Random(){return(0,t.jsx)("div",{children:random(1,10)})}}}]);

@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import { Suspense } from 'react'
 
 // export const metadata = {
 //   title: 'Posts',
@@ -21,8 +22,9 @@ export const revalidate = 10
 
 export default async function Posts () {
   const posts = await getData('https://jsonplaceholder.ir/posts', {
+    cache: 'no-store',
     next: {
-      //   revalidate: 10
+      //   revalidate: 10,
     }
   })
 
